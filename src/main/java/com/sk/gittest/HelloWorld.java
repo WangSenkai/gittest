@@ -18,7 +18,6 @@ public class HelloWorld {
         Date date = new Date();
         String dateStr = new SimpleDateFormat("yyyy-mm-dd HH:mm:ss").format(date);
         System.out.println(dateStr);
-        System.out.println("你好");
         return dateStr;
     }
 
